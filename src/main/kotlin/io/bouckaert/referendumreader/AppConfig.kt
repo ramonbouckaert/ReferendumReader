@@ -1,6 +1,7 @@
 package io.bouckaert.referendumreader
 
 data class AppConfig(
+    val pollingFrequency: Long,
     val aec: Aec
 ) {
     data class Aec (

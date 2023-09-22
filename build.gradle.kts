@@ -13,7 +13,6 @@ repositories {
 dependencies {
     implementation("commons-net:commons-net:3.9.0")
     implementation("com.sksamuel.hoplite:hoplite-json:2.7.2")
-    implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.15.2")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
     testImplementation(kotlin("test"))
 }

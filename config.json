@@ -1,4 +1,5 @@
 {
+  "pollingFrequency": 1,
   "aec": {
     "host": "mediafeedarchive.aec.gov.au",
     "electoralEvent": 29581

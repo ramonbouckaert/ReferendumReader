@@ -34,6 +34,7 @@ class AecFtpService(
 
     val preloadStream: ZipFtpInputStream get() = getRelevantInputStream(Granularity.DETAILED, Verbosity.PRELOAD, "aec-mediafeed-results-detailed-preload")
     val lightProgressStream: ZipFtpInputStream get() = getRelevantInputStream(Granularity.DETAILED, Verbosity.LIGHT_PROGRESS, "aec-mediafeed-results-detailed-lightprogress")
+    val verboseStream: ZipFtpInputStream get() = getRelevantInputStream(Granularity.DETAILED, Verbosity.VERBOSE, "aec-mediafeed-results-detailed-verbose")
     private fun getRelevantInputStream(
         granularity: Granularity,
         verbosity: Verbosity,
