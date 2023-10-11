@@ -8,11 +8,11 @@ data class ProposalResults(
 ) {
     data class Option(
         val referendumOptionIdentifier: ReferendumOptionIdentifier,
-        var votes: Long
+        val votes: Long
     ) {
         data class ReferendumOptionIdentifier(val id: String, val name: String)
     }
-    data class Count(var votes: Long)
+    data class Count(val votes: Long)
 
     override fun toString(): String {
         val sb = StringBuilder()
